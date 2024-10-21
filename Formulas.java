@@ -19,11 +19,11 @@ public class Formulas {
     public double calc_time(double current_position_x){
         return (current_position_x - start_x) / intial_velX;
     }
-    public double calc_new_position_y(double current_position){
-        double time = calc_time(current_position_x);
+    public double calc_new_position_y(double current_position_y){
+        double time = calc_time(current_position_y);
         return intial_velY * time + start_y - 0.5 * 9.8 * time * time;  // Accounts for gravity
     }
-    public double calc_new_position_x(double current_position){
+    public double calc_new_position_x(double current_position_x){
         double time = calc_time(current_position_x);
         return intial_velX * time + start_x;
     }
