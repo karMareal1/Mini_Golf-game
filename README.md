@@ -20,3 +20,15 @@ Here are some of the functions that can be used when creating a Formulas object:
 9. calc_distance_to_hole(double holeX, double holeY): takes in the coordinates of the x and y and then returns the distance from the ball to the hole.
 
 10. reset_position(double newX, double newY): takes in the coordinates of the x and y position and then resets all the variables with these new adjustments.
+
+Functions to use from the Input Class:
+
+1. Getter method "getStartX()" returns a double number representing the start position of X, in meters
+
+2. Getter method "getStartY()" returns a double number reperesenting the start position of Y, in meters
+
+3. Getter method "getStartVX()" returns a double number representing the start velocity in the X direction, in meters/second
+
+4. Getter method "getStartVY()" returns a double number representing the start velocity in the Y direction, in meters/second
+
+5. Getter method "getAngle()" retunrs a double number representing the angle of the launch in degrees.
